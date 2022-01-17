@@ -7,14 +7,14 @@ def app():
     st.write("## Sample Images")
 
     col1, col2, col3 = st.columns(3)
-    col1.image("../samples/cardboard.jpg", caption='0 : Cardboard')
-    col2.image("../samples/glass.jpg", caption='1 : Glass')
-    col3.image("../samples/metal.jpg", caption='2 : Metal')
+    col1.image("./samples/cardboard.jpg", caption='0 : Cardboard')
+    col2.image("./samples/glass.jpg", caption='1 : Glass')
+    col3.image("./samples/metal.jpg", caption='2 : Metal')
 
     col4, col5, col6 = st.columns(3)
-    col4.image("../samples/paper.jpg", caption='3 : Paper')
-    col5.image("../samples/plastic.jpg", caption='4 : Plastic')
-    col6.image("../samples/trash.jpg", caption='5 : Trash')
+    col4.image("./samples/paper.jpg", caption='3 : Paper')
+    col5.image("./samples/plastic.jpg", caption='4 : Plastic')
+    col6.image("./samples/trash.jpg", caption='5 : Trash')
 
     st.write("## Upload Image in .jpg format")
     uploaded_image = st.file_uploader("", type=["jpg"])
