@@ -1,6 +1,9 @@
 from pages import app1, app2, app3
 
 import streamlit as st
+
+st.beta_set_page_config(page_title='Garbage Classification')
+
 PAGES = {
     "Project Description": app1,
     "Model Demo": app2,
