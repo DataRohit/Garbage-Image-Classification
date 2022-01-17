@@ -26,7 +26,7 @@ def app():
     st.subheader("Data :")
     st.write("The Data used in this project is available on Kaggle.")
     st.markdown("Visit Kaggle for Data <a href='https://www.kaggle.com/asdasdasasdas/garbage-classification'>here</a>", True)
-    st.write("The approximate size of the Data is 43MB. It contains 2,527 Image categorized in 6 classes.")
+    st.write("The approximate size of the Data is 43MB. It contains 2,527 Images categorized in 6 classes.")
 
     st.subheader("Tech Used :")
     st.write("This is a Python based Garbage Image Classification project.")
