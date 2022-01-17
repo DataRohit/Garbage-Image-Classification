@@ -103,8 +103,3 @@ Send2Trash==1.8.0
 six==1.16.0
 smmap==5.0.0
 stack-data==0.1.4
->>>>>>> 63bc182948789122ecd4ed6b08fecb30a19b3906
-streamlit==1.4.0
-tensorflow-gpu==2.7.0
-Pillow==9.0.0
-matplotlib==3.5.1
