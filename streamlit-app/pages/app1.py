@@ -33,7 +33,7 @@ def app():
 
     st.subheader("Data :")
     st.markdown("The Data used in this project is available on Kaggle.")
-    st.markdown("Visit Kaggle for Data [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification)", True)
+    st.markdown("Visit Kaggle for Data [Kaggle Data](https://www.kaggle.com/asdasdasasdas/garbage-classification)", True)
     st.markdown("The approximate size of the Data is 43MB. It contains `2,527 Images categorized in 6 classes.`", True)
 
     st.markdown("<hr/>", True)
@@ -62,5 +62,5 @@ def app():
     st.markdown("<hr/>", True)
 
     st.subheader("Code :")
-    st.markdown("Full code and files for this project are availabe on my github repository [GitHub](https://github.com/DataRohit/Garbage-Image-Classification)", True)
+    st.markdown("Full code and files for this project are availabe on my github repository [GitHub Repo](https://github.com/DataRohit/Garbage-Image-Classification)", True)
     
