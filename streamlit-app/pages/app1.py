@@ -2,7 +2,7 @@ import streamlit as st
 import os
 
 def app():
-    st.title("Project Description")
+    st.title("Garbage Image Classification")
 
     st.subheader("Objective :")
     st.markdown("The main Objective of this project is to use `Machine Learning` and `Deep learning` to categorize the garbage image into 6 different classes namely :", True)
