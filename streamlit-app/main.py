@@ -4,7 +4,7 @@ import streamlit as st
 PAGES = {
     "Project Description": app1,
     "Model Demo": app2,
-    "About Me": app3
+    "About Me": app3,
 }
 
 st.sidebar.title('Garbage Image Classification')

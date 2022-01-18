@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing import image
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 def predict(img):
-    model = keras.models.load_model(os.path.join(os.getcwd(), "streamlit-app", "model_31-0.96.h5"))
+    model = keras.models.load_model(os.path.join(os.getcwd(), "model_31-0.96.h5"))
 
     # Load the Image
     img = Image.open(img)
@@ -32,4 +32,4 @@ def predict(img):
     # Predicted Class
     predicted_class = labels[np.argmax(prediction[0], axis=-1)]
 
-    return predicted_class
+    return [prediction, predicted_class]
