@@ -22,5 +22,5 @@ def app():
     st.markdown("Phone Number &#10230 `+919421700930`", True)
     st.markdown("Email &#10230 `rohitingole56@gmail.com`, `rohit.ingole.ds@ghrce.raisoni.net`", True)
     st.markdown("Github &#10230 [Github Profile](https://github.com/DataRohit)", True)
-    st.markdown("LinkedIn &#10230 [LinkedIn](https://www.linkedin.com/in/rohit-ingole-030036227/)", True)
-    st.markdown("Twitter &#10230 [Twitter](https://twitter.com/RohitIngole19)", True)
+    st.markdown("LinkedIn &#10230 [LinkedIn Profile](https://www.linkedin.com/in/rohit-ingole-030036227/)", True)
+    st.markdown("Twitter &#10230 [Twitter Profile](https://twitter.com/RohitIngole19)", True)
