@@ -57,10 +57,10 @@ def app():
 
     st.subheader("Folder Structure")
     st.image(os.path.join(os.getcwd(), "streamlit-app", "images", "folders.jpg"), caption="Basic Folder Structure")
-    st.markdown("This is the Basic Folder Structure for the project. Full folder structure and filed are available in my github repository <a href='https://github.com/DataRohit/Garbage-Image-Classification'>`here`</a>", True)
+    st.markdown("This is the Basic Folder Structure for the project. Full folder structure and filed are available in my github repository.", True)
 
     st.markdown("<hr/>", True)
 
     st.subheader("Code :")
-    st.markdown("Full code and files for this project are availabe on my github <a href='https://github.com/DataRohit/Garbage-Image-Classification'>`here`</a>.", True)
+    st.markdown("Full code and files for this project are availabe on my github repository <a href='https://github.com/DataRohit/Garbage-Image-Classification'>`here`</a>.", True)
     
